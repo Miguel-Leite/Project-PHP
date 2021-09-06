@@ -1,0 +1,27 @@
+{
+    "name": "miguel/php-pro",
+    "description": "php-profissional",
+    "autoload": {
+        "files": [
+            "app/helpers/constantes.php",
+            "app/router/router.php",
+            "app/core/controller.php",
+            "app/database/connect.php",
+            "app/database/fetch.php",
+            "app/helpers/redirects.php",
+            "app/helpers/flash.php",
+            "app/helpers/sessions.php",
+            "app/helpers/validate.php"
+        ],
+        "psr-4": {
+            "app\\": "app\\"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel-Leite",
+            "email": "miguelleite200leite@gmail.com"
+        }
+    ],
+    "require": {}
+}

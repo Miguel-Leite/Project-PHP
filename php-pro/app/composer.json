@@ -1,0 +1,15 @@
+{
+    "name": "miguel/app",
+    "autoload": {
+        "psr-4": {
+            "Miguel\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel-Leite",
+            "email": "miguelleite200leite@gmail.com"
+        }
+    ],
+    "require": {}
+}
